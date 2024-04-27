@@ -5,7 +5,7 @@ from time import sleep
 import datetime
 from crontab import CronTab
 
-json_path = './conf.json'
+json_path = os.path.dirname(__file__)+'/conf.json'
 poll_time = 10  # crontab 10分钟检查一次
 cron_time = 1
 
