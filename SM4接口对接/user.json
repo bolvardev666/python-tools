@@ -1,0 +1,26 @@
+{
+  "SERVICEID": "email",
+  "MODIFYTYPE": "add",
+  "USERLIST": [
+    {
+      "IDCARD": null,
+      "LOGIN_NO": "guxuan",
+      "USER_NAME": "顾旋",
+      "GENDER": "男",
+      "ORG_CODE": 10,
+      "EMAIL": "123@qq.com",
+      "MOBILE": "13313312345",
+      "PASSWORD": "667C756CF9334E328A56E44E906245C8E214C655A160F18FDB84D79C209C49CF",
+      "TEL": null,
+      "STATUS": 0,
+      "EFFECT_DATE": "2024-06-28 16:07:13",
+      "EXPIRE_DATE": "2025-06-28 16:07:13",
+      "REMARK": null,
+      "USER_TYPE": 1,
+      "REGION_CODE": null,
+      "COMPANY_CODE": null,
+      "BZ1": null,
+      "BZ2": null
+    }
+  ]
+}
