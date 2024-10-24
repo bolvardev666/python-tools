@@ -1,0 +1,12 @@
+{
+  "frpc": {
+    "check": "ps -ef | grep frpc | grep -v grep",
+    "start": "/opt/frp/frpc -c frpc.ini",
+    "stop": "kill -9 "
+  },
+    "test": {
+    "check": "null",
+    "start": "null",
+    "stop": "null"
+  }
+}
