@@ -1,0 +1,18 @@
+{
+  "主机1": {
+    "host": "192.168.1.1",
+    "port": 22,
+    "username": "root",
+    "password": "password",
+    "method_name": "exe_cmd",
+    "method_args": "ls -l"
+  },
+    "主机2": {
+      "host": "192.168.1.2",
+      "port": 22,
+      "username": "root",
+      "password": "password",
+      "method_name": "sftp_download",
+      "method_args": "/root/1.txt ./dst"
+    }
+}

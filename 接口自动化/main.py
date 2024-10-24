@@ -3,7 +3,7 @@ import requests,urllib3
 from urllib3.exceptions import InsecureRequestWarning
 from colorama import Fore,Style
 from header import header
-from test import get_station_name,get_station_key
+from _test import get_station_name,get_station_key
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
