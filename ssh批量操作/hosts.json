@@ -1,18 +1,19 @@
 {
   "主机1": {
-    "host": "192.168.1.1",
+    "running": false,
+    "host": "192.168.3.102",
     "port": 22,
     "username": "root",
-    "password": "password",
-    "method_name": "exe_cmd",
-    "method_args": "ls -l"
+    "password": "1",
+    "method_name": "sftp_upload",
+    "method_args": "./192.168.3.105 /root"
   },
     "主机2": {
-      "host": "192.168.1.2",
+      "host": "192.168.3.105",
       "port": 22,
       "username": "root",
-      "password": "password",
-      "method_name": "sftp_download",
-      "method_args": "/root/1.txt ./dst"
+      "password": "1",
+      "method_name": "exe_script_ret",
+      "method_args": "./scripts/test.sh /tmp/test.sh"
     }
 }
